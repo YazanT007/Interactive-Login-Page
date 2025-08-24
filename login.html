@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="https://fontawesome.com/icons/cloudflare?f=brands&s=solid">
+<script src="https://kit.fontawesome.com/d482154c15.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mozzie</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="icons">
+                    <a href="" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>Use your email for registeration</span>
+                <input type="text" id="Username" placeholder="Username" required>
+                <input type="email" id="Email" placeholder="Email" required>
+                <input type="password" id="Password" placeholder="Password" required>
+                <button>Sign Up</button>
+
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="icons">
+                    <a href="" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <span>Use your email and password to login</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a id="forgetHref" href="#">Forget Password</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-pannel left-to-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details </p>
+                    <button id="loginBtn" class="hiddenBtn" onclick="toggleActive(false)">Sign In</button>
+                </div>
+                <div class="toggle-pannel right-to-left">
+                    <h1>Hello, there!</h1>
+                    <p>Register with your personal details </p>
+                    <button id="register" class="hiddenBtn" onclick="toggleActive(true)">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="login.js"></script>
+</body>
+
+</html>

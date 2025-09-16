@@ -31,8 +31,6 @@ The page is built for user authentication scenarios such as login forms, signup,
 ---
 
 
-## If you want to run the project locally:
+## 🚀 Try It Out
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/YazanT007/interactive-login-page.git
+👉 [Click here to try the Login Page](https://interactive-login-page-made-by-yazant.netlify.app/) 

@@ -5,7 +5,7 @@ The page is built for user authentication scenarios such as login forms, signup,
 
 ---
 
-## ✨ Features
+## Features
 
 - **User-friendly UI** with sleek form design  
 - **Interactive input fields** (highlight effects when focused)  
@@ -14,7 +14,7 @@ The page is built for user authentication scenarios such as login forms, signup,
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5** → structure of the form  
 - **CSS3** → styling, layout, and animations  
@@ -22,7 +22,7 @@ The page is built for user authentication scenarios such as login forms, signup,
 
 ---
 
-## 📸 Page Preview
+## Page Preview
 
  <img width="1040" height="626" alt="image" src="https://github.com/user-attachments/assets/b0ac4406-0a8f-4562-9ea5-a986c6eb4a7e" />
  <img width="1079" height="625" alt="image" src="https://github.com/user-attachments/assets/1170531b-fbcc-4c46-b550-4e0679f5a6e0" />
@@ -31,6 +31,6 @@ The page is built for user authentication scenarios such as login forms, signup,
 ---
 
 
-## 🚀 Try It Out
+## Try It Out
 
 👉 [Click here to try the Login Page](https://interactive-login-page-made-by-yazant.netlify.app/) 
